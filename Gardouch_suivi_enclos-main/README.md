@@ -6,7 +6,7 @@ Applicatif client de bd_gardouch permettant **la visualisation** et **la mise à
 ![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png)
 **Cet applicatif a été créé à partir du package  [Timevis](https://github.com/yannickkk/timevis)**
 
-### Page d'acceuil
+### Vue générale de l'applicatif
 
 ![App_vue_generale](./Images/vu_ensemble_App.png)
 _Vue d'ensemble de l'applicatif_ 
@@ -15,13 +15,31 @@ L'applicatif comporte deux onglets, "Animaux" et "Enclos" (en haut de l'image ci
 
 ![image](https://user-images.githubusercontent.com/39738426/121326110-88ffec80-c912-11eb-9878-daa4c11f02c1.png)
 
-Le premier **Animaux** permet d'afficher les mouvements de chaque animal au cours du temps et au travers des différents enclos de l'installation expérimentale.
+Le premier onglet nommé **Animaux** permet d'afficher les mouvements de chaque animal au cours du temps et au travers des différents enclos de l'installation expérimentale.
 
-Le second **Enclos** permet d'afficher au cours du temps les animaux présents dans chaque enclos de l'installation.
+Le second onglet nommé **Enclos** permet d'afficher au cours du temps les animaux présents dans chaque enclos de l'installation.
 
 ![image](https://user-images.githubusercontent.com/39738426/121325940-581fb780-c912-11eb-8717-5dbb6f530ad4.png) **Au lancement de l'applicatif, seuls les animaux dont la date de sortie est nulle dans le [registre](https://github.com/yannickkk/Applicatifs_IE_Gardouch/Gardouch_registre) de l'installation sont affichés car la case "Afficher seulement les animaux présent aujourd'hui" est par défaut cochée. Si on la décoche l'ensemble du mouvement des animaux élevés dans l'installation expérimentale de Gardouch s'affichent.**
 
 ![image](https://user-images.githubusercontent.com/39738426/121326804-2bb86b00-c913-11eb-92e6-171774dc68f7.png)
+
+la liste déroulante "Utilisateur" permet à l'utilisateur de s'identifier.
+
+![image](https://user-images.githubusercontent.com/39738426/121482086-143db880-c9cd-11eb-99fa-b56b05213851.png)
+
+Evolution à venir: un controle utilisateur/mot de passe sera prochainement ajouté afin de transmettre les droits de l'utilisateur sur la base de données (appartenance au groupe lecture/écriture ou admin) 
+
+La liste déroulante chevreuil(s) permet la sélection d'un animal en particulier
+
+![image](https://user-images.githubusercontent.com/39738426/121481370-5a464c80-c9cc-11eb-859f-d6a0309fb551.png)
+
+![image](https://user-images.githubusercontent.com/39738426/121325940-581fb780-c912-11eb-8717-5dbb6f530ad4.png) **attention si la case "Afficher seulement les animaux présent aujourd'hui" est cochée (cas par défaut), seuls les animaux encore présents actuellement dans l'installation s'affichent. Pour pouvoir sélectionner n'importe quel animal il faut penser à décocher cette case.**
+
+
+
+
+
+
 
 Affichage du mouvement de la chevrette Fanny:
 
