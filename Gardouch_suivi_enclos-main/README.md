@@ -1,5 +1,5 @@
 # Gardouch_suivi_enclos
-Applicatif permettant la visualisation et la modification des mouvement d'animaux dans l'insatallation expérimentale de Gardouch
+Applicatif client de bd_gardouch permettant **la visualisation** et **la mise à jour** des mouvements d'animaux au sein des parcs d'élevage de l'installation expérimentale de Gardouch.
 
 ## Fonctionnement de l'applicatif
 
@@ -11,15 +11,15 @@ Applicatif permettant la visualisation et la modification des mouvement d'animau
 ![App_vue_generale](./Images/vu_ensemble_App.png)
 _Vue d'ensemble de l'applicatif_ 
 
-L'applicatif comporte deux onglets (en haut de l'image ci-dessus à droite de IE Gardouch).
+L'applicatif comporte deux onglets, "Animaux" et "Enclos" (en haut de l'image ci-dessus à droite de IE Gardouch et ci-dessous).
 
 ![image](https://user-images.githubusercontent.com/39738426/121326110-88ffec80-c912-11eb-9878-daa4c11f02c1.png)
 
 Le premier **Animaux** permet d'afficher les mouvements de chaque animal au cours du temps et au travers des différents enclos de l'installation expérimentale.
 
-Le second **Enclos** permet de visualiser pour chaque enclos les animaux présents au cours du temps.
+Le second **Enclos** permet d'afficher au cours du temps les animaux présents dans chaque enclos de l'installation.
 
-![image](https://user-images.githubusercontent.com/39738426/121325940-581fb780-c912-11eb-8717-5dbb6f530ad4.png) **Au lancement de l'applicatif, seul les animaux dont la date de sortie est nulle dans le registre de l'installation sont affichés car la case "Afficher seulement les animaux présent aujourd'hui" est par défaut cochée. Si on la décoche l'ensemble du mouvement des animaux élevés dans l'installation expérimentale de Gardouch s'affichent.**
+![image](https://user-images.githubusercontent.com/39738426/121325940-581fb780-c912-11eb-8717-5dbb6f530ad4.png) **Au lancement de l'applicatif, seuls les animaux dont la date de sortie est nulle dans le [registre] (https://github.com/yannickkk/Applicatifs_IE_Gardouch/Gardouch_registre) de l'installation sont affichés car la case "Afficher seulement les animaux présent aujourd'hui" est par défaut cochée. Si on la décoche l'ensemble du mouvement des animaux élevés dans l'installation expérimentale de Gardouch s'affichent.**
 
 ![image](https://user-images.githubusercontent.com/39738426/121326804-2bb86b00-c913-11eb-92e6-171774dc68f7.png)
 
