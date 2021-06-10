@@ -19,7 +19,7 @@ Le premier **Animaux** permet d'afficher les mouvements de chaque animal au cour
 
 Le second **Enclos** permet d'afficher au cours du temps les animaux présents dans chaque enclos de l'installation.
 
-![image](https://user-images.githubusercontent.com/39738426/121325940-581fb780-c912-11eb-8717-5dbb6f530ad4.png) **Au lancement de l'applicatif, seuls les animaux dont la date de sortie est nulle dans le [registre] (https://github.com/yannickkk/Applicatifs_IE_Gardouch/Gardouch_registre) de l'installation sont affichés car la case "Afficher seulement les animaux présent aujourd'hui" est par défaut cochée. Si on la décoche l'ensemble du mouvement des animaux élevés dans l'installation expérimentale de Gardouch s'affichent.**
+![image](https://user-images.githubusercontent.com/39738426/121325940-581fb780-c912-11eb-8717-5dbb6f530ad4.png) **Au lancement de l'applicatif, seuls les animaux dont la date de sortie est nulle dans le [registre](https://github.com/yannickkk/Applicatifs_IE_Gardouch/Gardouch_registre) de l'installation sont affichés car la case "Afficher seulement les animaux présent aujourd'hui" est par défaut cochée. Si on la décoche l'ensemble du mouvement des animaux élevés dans l'installation expérimentale de Gardouch s'affichent.**
 
 ![image](https://user-images.githubusercontent.com/39738426/121326804-2bb86b00-c913-11eb-92e6-171774dc68f7.png)
 
