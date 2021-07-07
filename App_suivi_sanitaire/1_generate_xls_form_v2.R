@@ -29,7 +29,7 @@ drv <- dbDriver("PostgreSQL")
 # on connecte directement la base de l'Installation exp?rimentale de Gardouch (possible de changer user et pw)
 con <- dbConnect(drv, dbname = "db_gardouch",
                  host = "pggeodb.nancy.inrae.fr", port = 5432,
-                 user = "jbelbouab", password = "belbouabj",
+                 user = "xxxxx", password = "xxxxx",
                  options="-c search_path=main,public,animals")
 
 
