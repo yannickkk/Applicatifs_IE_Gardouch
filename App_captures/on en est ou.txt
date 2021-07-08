@@ -1,0 +1,6 @@
+
+
+
+Lors de la creation d'une nouvelle variable:
+Si celle ci est une variable associée à une variable d'heure, la variable s'appelle ma_variable et la variable d'heure ma_variable_heure. il faut relancer 5_vue_wide.R pour recréer les vues. Avant cela créer une entrée dans les tables de destination de chacune des variables pour que le crosstab inclu les nouvelles variable, éffacer ensuite ses entrée.
+Pour la création d'une autre variable, la démarche est la même.
