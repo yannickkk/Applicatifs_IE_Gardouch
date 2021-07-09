@@ -44,7 +44,7 @@ Ces champs sont signaléS par un astérisque ![image](https://user-images.github
 
 Le champ utilisateur:
 
-![image](https://user-images.githubusercontent.com/39738426/125036197-06925600-e093-11eb-89f8-157cff14e39a.png)
+![image](https://user-images.githubusercontent.com/39738426/125048776-8f63be80-e0a0-11eb-93fc-ba6a4566efe8.png)
 
 *Une liste déroulante permet de choix d'un utilisateur parmis ceux enregistrés dans la base de données. Pour l'ajout d'un nouvel utilisateur demandez au gestionnaire SI. Ce champ est obligatoire pour pouvoir enregistrer une donnée.
 
