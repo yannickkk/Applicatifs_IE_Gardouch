@@ -145,17 +145,24 @@ Ainsi si l'on retre 211, les données de Quorine s'affichent
 
 ![image](https://user-images.githubusercontent.com/39738426/125044722-88d34800-e09c-11eb-8cca-6fbc202cc4fb.png)
 
-Elles peuvent être alors complétées puis enregistrée en cliquant sur enregistrer:
+Elles peuvent être alors complétées puis enregistrée en cliquant sur Enregistrer:
 
-ATTENTION: si le bouton enregistré est bleu pâle:
+ATTENTION: si le bouton Enregistrer est bleu pâle:
 
 ![image](https://user-images.githubusercontent.com/39738426/125045263-16169c80-e09d-11eb-8914-1b33d0ecdfc2.png)
 
 Cela signifie qu'un champ obligatoire n'a pas été sasie (dans le cas du rappel d'un individu connu, il s'agit généralement du nom de l'utilisateur de l'applicatif).
-Une fois tous les champ obligatoires remplis, le boutn deveint bleu foncé:
+Une fois tous les champ obligatoires remplis, l'enregistrement est autorisé et le bouton devient bleu foncé:
 
 ![image](https://user-images.githubusercontent.com/39738426/125047221-0c8e3400-e09f-11eb-8b00-1d9b41c07e64.png)
 
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
+
+Lorsque l'on en connait pas le N° de l'animal il est possible d'utiliser au préalable l'otuil d'affichage et de trie pour le connaitre. Si on connait le nom de l'animal "Quorine", taper ce nom dans l'encadré en dessous de ani_nom_registre permet de voit le numéro de l'animal dasn la colonne ani_n_inra.
+
+![image](https://user-images.githubusercontent.com/39738426/125048372-2419ec80-e0a0-11eb-9033-311103460b50.png)
+
+*lorsque "quori" est entré dans le champ ani_nom_registre, l'individu "Quorine" est sélectionné et le N° de l'animal se trouve dans ani_n_inra.*
 
 ## 2- Affichage des données, trie et export.
 
