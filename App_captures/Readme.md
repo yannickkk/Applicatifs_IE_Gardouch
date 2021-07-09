@@ -40,13 +40,13 @@ image cette fonctionalité sera implémentée dans la V0.2. Acutellement tous le
 
 Certains champs sont obligatoires. Celà signifie que si ils ne sont pas remplis, on en peut pas enregistrer les informations saisies. Ces champs sont signalés par un astérisque ![image](https://user-images.githubusercontent.com/39738426/125034814-596b0e00-e091-11eb-8d1c-7e83ac4d02fe.png)
 
-1- l'onglet Marquage/prélèvement/traitement
+<h1> 1- l'onglet Marquage/prélèvement/traitement <h1/>
 
-1.1- le formulaire de saisie
+<h2> 1.1- le formulaire de saisie <h2/>
 
 Le formumaire de saisie du premier onglet est composé de 4 sections: Identifiants, Marquage, Prélèvements, Comptages.
 
-1.1.1- Identifiants
+<h3> 1.1.1- Identifiants <h3/>
 
 cette section regroupe l'ensemble des identifiants de l'opérateur de saisie et de la l'observation (la capture physique est un type d'observation. Une observation se caractérise par: un animal + une date)
 
@@ -88,7 +88,7 @@ Cela signifie qu'un champ obligatoire n'a pas été sasie. Une fois tous les cha
 
 ![image](https://user-images.githubusercontent.com/39738426/125065738-7c59ea00-e0b2-11eb-97bd-1ca5cec78cca.png)
 
-1.1.2- Marquage
+<h2> 1.1.2- Marquage </h2> 
 
 Lors d'une capture un animal peut être ou non équipé d'un collier de marquage et.ou de suivi (capteurs embarqués).
 
