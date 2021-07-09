@@ -154,7 +154,7 @@ ATTENTION: si le bouton enregistré est bleu pâle:
 Cela signifie qu'un champ obligatoire n'a pas été sasie (dans le cas du rappel d'un individu connu, il s'agit généralement du nom de l'utilisateur de l'applicatif).
 Une fois tous les champ obligatoires remplis, le boutn deveint bleu foncé:
 
-![image](https://user-images.githubusercontent.com/39738426/125045347-2dee2080-e09d-11eb-86a9-cd1745826d54.png)
+![image](https://user-images.githubusercontent.com/39738426/125047221-0c8e3400-e09f-11eb-8b00-1d9b41c07e64.png)
 
 
 ## 2- Affichage des données, trie et export.
