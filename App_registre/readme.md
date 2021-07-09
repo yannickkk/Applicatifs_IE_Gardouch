@@ -174,4 +174,8 @@ Une case à coher permet de réduire cette sélection aux seuls animaux présent
 
 ![image](https://user-images.githubusercontent.com/39738426/125049251-131dab00-e0a1-11eb-86ca-cae5424a2b92.png)
 
+**Le trie**
 
+
+
+**l'export**
