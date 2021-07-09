@@ -29,11 +29,7 @@ Les tables alimentées par cet applicatif sont contenues dans le schéma main. E
 ![image](https://user-images.githubusercontent.com/39738426/125062205-6ea26580-e0ae-11eb-9c05-5b54deb0b287.png)
 
 
-Chacun des trois onglet de l'applicatif se compose de deux parties: 1-le formulaire de saisie dans la partie supérieure; 2-l'affichage des données dans la partie inférieure.
-
-1- l'onglet Marquage/prélèvement/traitement
-
-1.1- le formulaire de saisie
+Chacun des trois onglet de l'applicatif se compose de deux parties: 1-le formulaire de saisie dans la partie supérieure (lui même diisé en sections); 2-l'affichage des données dans la partie inférieure.
 
 L'applicatif peut servir à la visualisation, au trie et à l'export des données (voir partie 2) ou a la saisie des données. Ces possibilités sont offertes aux utilisateurs en fonction du groupe auxquel ils appartiennent dans la base de données de Gardouch.
 
@@ -43,6 +39,16 @@ si l'utilisateur est membre du groupe Gardouch_lecture: seul la visualisation, l
 image cette fonctionalité sera implémentée dans la V0.2. Acutellement tous les utilisateurs ont les droits d'écriture.
 
 Certains champs sont obligatoires. Celà signifie que si ils ne sont pas remplis, on en peut pas enregistrer les informations saisies. Ces champs sont signalés par un astérisque ![image](https://user-images.githubusercontent.com/39738426/125034814-596b0e00-e091-11eb-8d1c-7e83ac4d02fe.png)
+
+1- l'onglet Marquage/prélèvement/traitement
+
+1.1- le formulaire de saisie
+
+Le formumaire de saisie du premier onglet est composé de 4 sections: Identifiants, Marquage, Prélèvements, Comptages.
+
+1.1.1- Identifiants
+
+cette section regroupe l'ensemble des identifiants de l'opérateur de saisie et de la l'observation (la capture physique est un type d'observation. Une observation se caractérise par: un animal + une date)
 
 **Le champ utilisateur:**
 
@@ -82,10 +88,15 @@ Cela signifie qu'un champ obligatoire n'a pas été sasie. Une fois tous les cha
 
 ![image](https://user-images.githubusercontent.com/39738426/125065738-7c59ea00-e0b2-11eb-97bd-1ca5cec78cca.png)
 
+1.1.2- Marquage
 
+Lors d'une capture un animal peut être ou non équipé d'un collier de marquage et.ou de suivi (capteurs embarqués).
 
+**Collier**
 
+Ce champ est un champ textuel permettant de décrire le collier dont est équipé l'animal (c'est le champs qui sera afficher à titre d'aide à la reconnaissance par l'applicatif de suivi_sanitaire).
 
+1.1.3- Prélèvements
 
 
 
