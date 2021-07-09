@@ -23,59 +23,66 @@ Les tables alimentées par cet applicatif sont contenues dans le schéma main. E
 >
 >tj_observation_time_tob t_individu_ind
 
-<h2 align="center"> Vue général de l'applicatif capture.</h2>
+<h2 align="center"> Vue de la partie saisie du premier onglet de l'applicatif capture.</h2>
 
 
 ![image](https://user-images.githubusercontent.com/39738426/125062205-6ea26580-e0ae-11eb-9c05-5b54deb0b287.png)
 
 
+Chacun des trois onglet de l'applicatif se compose de deux parties: 1-le formulaire de saisie dans la partie supérieure; 2-l'affichage des données dans la partie inférieure.
 
+1- l'onglet Marquage/prélèvement/traitement
 
-
-L'applicatif se compose de deux partie: 1-le formulaire de saisie dans la partie supérieure; 2-l'affichage des données dans la partie inférieure.
-1- le formulaire de saisie
+1.1- le formulaire de saisie
 
 L'applicatif peut servir à la visualisation, au trie et à l'export des données (voir partie 2) ou a la saisie des données. Ces possibilités sont offertes aux utilisateurs en fonction du groupe auxquel ils appartiennent dans la base de données de Gardouch.
 
 si l'utilisateur est membre du groupe Gardouch_lecture: seul la visualisation, le trie et l'export des données est autorisé. si l'utilisateur est membre du groupe Gardouch_ecriture: l'édition des données est autorisée en plus de la visualisation, du trie et de l'export des données.
 
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
 image cette fonctionalité sera implémentée dans la V0.2. Acutellement tous les utilisateurs ont les droits d'écriture.
 
-Certains champs sont obligatoires. Celà signifie que si ils ne sont pas remplis, on en peut pas enregistrer les informations saisies. Ces champs sont signaléS par un astérisque image
+Certains champs sont obligatoires. Celà signifie que si ils ne sont pas remplis, on en peut pas enregistrer les informations saisies. Ces champs sont signalés par un astérisque ![image](https://user-images.githubusercontent.com/39738426/125034814-596b0e00-e091-11eb-8d1c-7e83ac4d02fe.png)
 
-Le champ utilisateur:
+**Le champ utilisateur:**
 
-
+![image](https://user-images.githubusercontent.com/39738426/125048776-8f63be80-e0a0-11eb-93fc-ba6a4566efe8.png)
 
 *Une liste déroulante permet de choix d'un utilisateur parmis ceux enregistrés dans la base de données. Pour l'ajout d'un nouvel utilisateur demandez au gestionnaire SI. Ce champ est obligatoire pour pouvoir enregistrer une donnée.
 
-N° de l'animal
+**N°invariant animal**
 
-Le numéro de l'animal est un entier. Il correspond au N° Inra de l'animal dans l'installation. Par défaut l'applicatif affiche le prochain numéro disponible pour saisir un nouvel individu entrant dasn l'installation. Ce champ est obligatoire et doit être unique.
+Le numéro de l'animal est un entier. Il correspond au N° Inra de l'animal dans l'installation. Par défaut l'applicatif affiche 0 qui ne correspond à aucun animal de l'installation. Ce champ est obligatoire puisqu'une observation (capture) est défini par un individu et une date.
 
-Nom de l'animal
+**Nom**
 
-C'est un champ texte. La plupart des animaux présents dans l'installation ont un nom qui permet aux expérimentateurs de mieux individualiser les animaux. Cependant, historiquement, les animaux du grands enclos qui n'étaient pas soumis à des soins quotidien n'en possédaient pas. Afin d'harmoniser l'ensemble des données et pouvoir développer des applicatifs de saisie de terrain qui affichent les noms des animaux pour les utilisateurs, il a été décidé de rendre ce champ obligatoire. Ce champ prend donc par défaut la valeur "N° de l'animal_". Ce nom est libre mais doit être unique. Il peut être modifié à tout moment suivant besoins des utilisateurs.
+C'est une liste de choix qui comporte une option d'autocomplétion. On peut donc rechercher un animal dans la liste ou entrer le début de son nom afin de réduire la sélection.
 
-image En plaçant la souris sur la plupart des champs on obtient une aide sur la façon de renseigner le champ correspondant.
+![image](https://user-images.githubusercontent.com/39738426/125064780-4b2cea00-e0b1-11eb-991e-8f2f7a1fd9d2.png) En plaçant la souris sur la plupart des champs on obtient une aide sur la façon de renseigner le champ correspondant.
 
-image
+**Code RFID**
 
-Ainsi lorsque l'on place la souris sur la zone de saisie de Nom, un phylactère d'affiche en dessous avec la mention "Le nom doit être unique"
+code alphanumérique à 10 caractères correspondant au code transpondeurs TROVAN.
 
-Sexe
+**Date de capture**
 
-Comme indiqué dans le phylactère correspondant, le sexe doit être renseigné par F, f, M ou m. Ce champ est obligatoire.
+![image](https://user-images.githubusercontent.com/39738426/125065061-a6f77300-e0b1-11eb-9e03-9bdd681f3582.png)
 
-Date naissance précise
+Ce champ permet de renseigner la date de capture de l'animal. Lorsque l'on clique sur cette zone un calendrier d'affiche pour permettre à l'utilisateur de choisir la date de la capture.
 
-image
+![image](https://user-images.githubusercontent.com/39738426/125064780-4b2cea00-e0b1-11eb-991e-8f2f7a1fd9d2.png) Une fois les champs obligatoires remplis (utilisateur, numéro de l'animal, nom et date de capture il est possible de créer une capture
 
-Ce champ permet de noter la date de naissance de l'animal si celle-ci est connue avec précision. Lorsque l'on clique sur cette zone un calendrier d'affiche pour permettre à l'utilisateur de choisir la date.
+ATTENTION: si le bouton Créer la capture est bleu pâle:
 
-image Une saisie manuelle est possible au format aaaa-mm-jj
+![image](https://user-images.githubusercontent.com/39738426/125065664-60eedf00-e0b2-11eb-8931-dbdfa1abe1b6.png)
 
-Attention: la date de naissance ne peut être postérieure à la date d'entrée ni à la date de sortie.
+Cela signifie qu'un champ obligatoire n'a pas été sasie. Une fois tous les champ obligatoires remplis, la création de la capture est autorisé et le bouton devient bleu foncé:
+
+![image](https://user-images.githubusercontent.com/39738426/125065738-7c59ea00-e0b2-11eb-97bd-1ca5cec78cca.png)
+
+
+
+
 
 Date naissance textuelle
 
@@ -137,9 +144,6 @@ Remarque
 
 champ libre textuel.
 
-Code RFID
-
-code alphanumérique à 10 caractères correspondant au code transpondeurs TROVAN.
 
 lorsque l'on souhaite ajouter des données ou modifier les données d'un animal existant, on peut afficher les données de l'animal en entrant sont numéro inra dans le champ N° de l'animal
 
