@@ -121,6 +121,45 @@ Champ texte. Code de sortie utilisé par le zootechicien pour catégoriser l'év
 
 Un calendrier s'affiche lorsque l'on clique sur la zone de saisie.
 
-**Attention la date de mort ne peux pas être antérieure à la date d'arrivée ni à la date de départ**
+**Attention la date de mort ne peux pas être antérieure à la date d'arrivée ni à la date de départ.**
+
+**Code Echant. genet**
+
+Correspondance à le code utilisé en génétique (voir avec Joel Merlet).
+
+**Code génotype**
+
+Correspondance à le code du génotype (voir avec Joel Merlet).
+
+**Remarque**
+
+champ libre textuel.
+
+**Code RFID**
+
+code alphanumérique à 10 caractères correspondant au code transpondeurs TROVAN.
+
+lorsque l'on souhaite ajouter des données ou modifier les données d'un animal existant, on peut afficher les données de l'animal en entrant sont numéro inra dans le champ N° de l'animal
+
+Ainsi si l'on retre 211, les données de Quorine s'affichent  
+
+![image](https://user-images.githubusercontent.com/39738426/125044722-88d34800-e09c-11eb-8cca-6fbc202cc4fb.png)
+
+Elles peuvent être alors complétées puis enregistrée en cliquant sur enregistrer:
+
+ATTENTION: si le bouton enregistré est bleu pâle:
+
+![image](https://user-images.githubusercontent.com/39738426/125045263-16169c80-e09d-11eb-8914-1b33d0ecdfc2.png)
+
+Cela signifie qu'un champ obligatoire n'a pas été sasie (dans le cas du rappel d'un individu connu, il s'agit généralement du nom de l'utilisateur de l'applicatif).
+Une fois tous les champ obligatoires remplis, le boutn deveint bleu foncé:
+
+![image](https://user-images.githubusercontent.com/39738426/125045347-2dee2080-e09d-11eb-86a9-cd1745826d54.png)
 
 
+
+
+
+## 2- Affichage des données, trie et export.
+
+La 
