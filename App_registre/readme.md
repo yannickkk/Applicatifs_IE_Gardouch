@@ -21,3 +21,7 @@ L'applicatif peut servir à la visualisation, au trie et à l'export des donnée
 
 si l'utilisateur est membre du groupe Gardouch_lecture: seul la visualisation, le trie et l'export des données est autorisé.
 si l'utilisateur est membre du groupe Gardouch_ecriture: l'édition des données est autorisée en plus de la visualisation, du trie et de l'export des données.
+
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
+ cette fonctionalité sera implémenté dans la V0.2. Acutellement tous les utilisateurs ont les droits d'écriture.
+ 
