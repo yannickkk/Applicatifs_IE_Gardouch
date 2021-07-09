@@ -70,6 +70,46 @@ Comme indiqué dans le phylactère correspondant, le sexe doit être renseigné 
 
 Ce champ permet de noter la date de naissance de l'animal si celle-ci est connue avec précision. Lorsque l'on clique sur cette zone un calendrier d'affiche pour permettre à l'utilisateur de choisir la date.
 
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
+Une saisie manuelle est possible au format aaaa-mm-jj
 
+**Attention: la date de naissance ne peut être postérieure à la date d'entrée ni à la date de sortie.**
+
+**Date naissance textuelle**
+Champ texte. A utiliser si la date de naissance est approximatife exemple: "début Juin".
+
+**Année de naissance**
+Champ acceptant un entier. Année de naissance au format aaaa.
+
+**De Gardouch?**
+Case à cocher qui permet de savoir si l'animal est né à Gardouch ou si il vien de l'extérieur (valeur par défaut).
+
+**Provenance**
+Champ textuel obligatoire. Elevage ou localité d'origine si l'animal vient de l'extérieur, numéro de l'enclos de naissance si l'animal est né dans l'installation expériementale.
+
+**Père et Mère**
+Deux listes déroulantes qui contiennent respectivement tous les mâles et toutes les femelles de l'installation expériementale.
+
+**Taille de la portée**
+Nom de frères et soeurs de l'individu concerné.
+
+**Espèce**
+Champ obligatoire. Par défaut l'espèce est chevreuil car c'est actuellement la seule espèce élevée au sein de l'Installation Expériementale. 
+
+**Date d'arrivée**
+Champ Obligatoire car pour être saisi dans cet applicatif un animal doit être obligatoirement entré dasn l'installation. Comme pour les autres dates, un calendrier s'affiche lorsque l'on clique sur la zone de saisie.
+
+**Date de départ**
+Saisie d'une date de sortie de l'installation. 
+
+**Attention cette date doit être postérieure à la date d'entrée**
+
+**Code sortie**
+Champ texte. Code de sortie utilisé par le zootechicien pour catégoriser l'évênement de sortie. 
+
+**Date de mort**
+Un calendrier s'affiche lorsque l'on clique sur la zone de saisie.
+
+**Attention la date de mort ne peux pas être antérieure à la date d'arrivée ni à la date de départ**
 
 
