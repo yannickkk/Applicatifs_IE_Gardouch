@@ -157,9 +157,6 @@ Une fois tous les champ obligatoires remplis, le boutn deveint bleu foncé:
 ![image](https://user-images.githubusercontent.com/39738426/125045347-2dee2080-e09d-11eb-86a9-cd1745826d54.png)
 
 
-
-
-
 ## 2- Affichage des données, trie et export.
 
 La 
