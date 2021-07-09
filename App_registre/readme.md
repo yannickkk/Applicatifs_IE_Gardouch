@@ -156,9 +156,7 @@ Une fois tous les champ obligatoires remplis, l'enregistrement est autorisé et 
 
 ![image](https://user-images.githubusercontent.com/39738426/125047221-0c8e3400-e09f-11eb-8b00-1d9b41c07e64.png)
 
-![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
-
-Lorsque l'on en connait pas le N° de l'animal il est possible d'utiliser au préalable l'otuil d'affichage et de trie pour le connaitre. Si on connait le nom de l'animal "Quorine", taper ce nom dans l'encadré en dessous de ani_nom_registre permet de voit le numéro de l'animal dasn la colonne ani_n_inra.
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png) Lorsque l'on en connait pas le N° de l'animal il est possible d'utiliser au préalable l'otuil d'affichage et de trie pour le connaitre. Si on connait le nom de l'animal "Quorine", taper ce nom dans l'encadré en dessous de ani_nom_registre permet de voit le numéro de l'animal dasn la colonne ani_n_inra.
 
 ![image](https://user-images.githubusercontent.com/39738426/125048372-2419ec80-e0a0-11eb-9033-311103460b50.png)
 
