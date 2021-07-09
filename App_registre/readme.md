@@ -1,23 +1,25 @@
-Cet applicatif sert à alimenter la base de données de l'installation expérimentale de Gardouch (db_gardouch)
+Cet applicatif sert à alimenter la base de données de l'installation expérimentale de Gardouch (db_gardouch).
+
+Les tables alimentées par cet applicatif sont contenues dans le schéma main. Elles se nomment:
 
 > t_individu_ind
-
+>
 > tj_individu_alpha_ai
-
+>
 > tj_individu_alpha_time_ati
-
+>
 > tj_individu_bool_bi
-
+>
 > tj_individu_bool_time_bti
-
+>
 > tj_individu_date_di
-
+>
 > tj_individu_integ_ii
-
+>
 > tj_individu_integ_time_iti
-
+>
 > tj_individu_num_ni
-
+>
 > tj_individu_num_time_nti
 
 
