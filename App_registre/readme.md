@@ -25,3 +25,6 @@ si l'utilisateur est membre du groupe Gardouch_ecriture: l'édition des données
 ![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
  cette fonctionalité sera implémenté dans la V0.2. Acutellement tous les utilisateurs ont les droits d'écriture.
  
+Certains champs sont obligatoires. Celà signifie que si ils ne sont pas remplis, on en peut pas enregistrer les informations saisies.
+Ces champs sont signaléS par un ![image](https://user-images.githubusercontent.com/39738426/125034814-596b0e00-e091-11eb-8d1c-7e83ac4d02fe.png)
+  
