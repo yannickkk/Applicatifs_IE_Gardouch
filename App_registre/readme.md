@@ -23,7 +23,7 @@ Les tables alimentées par cet applicatif sont contenues dans le schéma main. E
 > tj_individu_num_time_nti
 
 <h2 align="center">Vue général de l'applicatif registre.</h2>
-
+<br>
 ![image](https://user-images.githubusercontent.com/39738426/125032324-16f40200-e08e-11eb-9c82-579477ce669d.png)
 
 *L'applicatif se compose de deux partie: 1-le formulaire de saisie dans la partie supérieure; 2-l'affichage des données dans la partie inférieure.*
