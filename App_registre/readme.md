@@ -176,6 +176,14 @@ Une case à coher permet de réduire cette sélection aux seuls animaux présent
 
 **Le trie**
 
+Le trie des données peut être réalisé de deux façon. La première consiste à saisir la valeur recherchée directement dans la cellule de recherche (voir l'exemple précédent).
+
+La seconde consiste à utiliser les outils de sélection proposé par l'application en dessous de la zone de saisie. Ces outils varient en fonction du type de données. Par exemple dans un champ texte la recherche se fera par autocomplétion (donc par une saisie directe dasn le champ).
+Pour une valeur logique (vrai/faux) une liste déroulante s'affiche qui permet de sélectionner l'une ou l'autre des valeurs.
+Pour un entier ou une date c'est un outil de sélection de plage de valeurs qui s'affiche.
+
+![image](https://user-images.githubusercontent.com/39738426/125054881-f4baae00-e0a6-11eb-9f9e-1070d1aff9ca.png)
+
 
 
 **l'export**
