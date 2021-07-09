@@ -4,19 +4,28 @@ Cet applicatif sert à alimenter la base de données de l'installation expérime
 Les tables alimentées par cet applicatif sont contenues dans le schéma main. Elles se nomment:
 
 >t_observation_obs
+>
 >tj_observation_alpha_aob
+>
 >tj_observation_alpha_time_atob
+>
 >tj_observation_bool_bob
+>
 >tj_observation_bool_time_btob
+>
 >tj_observation_integ_iob
+>
 >tj_observation_integ_time_itob
+>
 >tj_observation_num_nob
+>
 >tj_observation_num_time_ntob
+>
 >tj_observation_time_tob t_individu_ind
 
 ![image](https://user-images.githubusercontent.com/39738426/125062205-6ea26580-e0ae-11eb-9c05-5b54deb0b287.png)
 
-**Vue général de l'applicatif capture.**
+*Vue général de l'applicatif capture.*
 
 
 
