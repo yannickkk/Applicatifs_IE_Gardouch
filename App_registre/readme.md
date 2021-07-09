@@ -164,4 +164,14 @@ Une fois tous les champ obligatoires remplis, l'enregistrement est autorisé et 
 
 ## 2- Affichage des données, trie et export.
 
-La 
+L'applicatif permet l'affichage, le trie et l'export de données.
+
+**L'affichage**
+
+Par défaut, l'ensemble des individus qui sont ou on étés présents dans l'unité expérimentale sont affichés.
+
+Une case à coher permet de réduire cette sélection aux seuls animaux présents dasn l'installation.
+
+![image](https://user-images.githubusercontent.com/39738426/125049251-131dab00-e0a1-11eb-86ca-cae5424a2b92.png)
+
+
