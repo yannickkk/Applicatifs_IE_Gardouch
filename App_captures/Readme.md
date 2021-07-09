@@ -58,7 +58,9 @@ Le numéro de l'animal est un entier. Il correspond au N° Inra de l'animal dans
 
 C'est une liste de choix qui comporte une option d'autocomplétion. On peut donc rechercher un animal dans la liste ou entrer le début de son nom afin de réduire la sélection.
 
-![image](https://user-images.githubusercontent.com/39738426/125064780-4b2cea00-e0b1-11eb-991e-8f2f7a1fd9d2.png) En plaçant la souris sur la plupart des champs on obtient une aide sur la façon de renseigner le champ correspondant.
+![image](https://user-images.githubusercontent.com/39738426/125064780-4b2cea00-e0b1-11eb-991e-8f2f7a1fd9d2.png) 
+
+*En plaçant la souris sur la plupart des champs on obtient une aide sur la façon de renseigner le champ correspondant.*
 
 **Code RFID**
 
@@ -70,9 +72,9 @@ code alphanumérique à 10 caractères correspondant au code transpondeurs TROVA
 
 Ce champ permet de renseigner la date de capture de l'animal. Lorsque l'on clique sur cette zone un calendrier d'affiche pour permettre à l'utilisateur de choisir la date de la capture.
 
-![image](https://user-images.githubusercontent.com/39738426/125064780-4b2cea00-e0b1-11eb-991e-8f2f7a1fd9d2.png) Une fois les champs obligatoires remplis (utilisateur, numéro de l'animal, nom et date de capture il est possible de créer une capture
+Une fois les champs obligatoires remplis (utilisateur, numéro de l'animal, nom et date de capture il est possible de créer une capture
 
-ATTENTION: si le bouton Créer la capture est bleu pâle:
+**ATTENTION:** si le bouton Créer la capture est bleu pâle:
 
 ![image](https://user-images.githubusercontent.com/39738426/125065664-60eedf00-e0b2-11eb-8931-dbdfa1abe1b6.png)
 
@@ -84,88 +86,9 @@ Cela signifie qu'un champ obligatoire n'a pas été sasie. Une fois tous les cha
 
 
 
-Date naissance textuelle
-
-Champ texte. A utiliser si la date de naissance est approximatife exemple: "début Juin".
-
-Année de naissance
-
-Champ acceptant un entier. Année de naissance au format aaaa.
-
-De Gardouch?
-
-Case à cocher qui permet de savoir si l'animal est né à Gardouch ou si il vien de l'extérieur (valeur par défaut).
-
-Provenance
-
-Champ textuel obligatoire. Elevage ou localité d'origine si l'animal vient de l'extérieur, numéro de l'enclos de naissance si l'animal est né dans l'installation expériementale.
-
-Père et Mère
-
-Deux listes déroulantes qui contiennent respectivement tous les mâles et toutes les femelles de l'installation expériementale.
-
-Taille de la portée
-
-Nom de frères et soeurs de l'individu concerné.
-
-Espèce
-
-Champ obligatoire. Par défaut l'espèce est chevreuil car c'est actuellement la seule espèce élevée au sein de l'Installation Expériementale.
-
-Date d'arrivée
-
-Champ Obligatoire car pour être saisi dans cet applicatif un animal doit être obligatoirement entré dasn l'installation. Comme pour les autres dates, un calendrier s'affiche lorsque l'on clique sur la zone de saisie.
-
-Date de départ
-
-Saisie d'une date de sortie de l'installation.
-
-Attention cette date doit être postérieure à la date d'entrée
-
-Code sortie
-
-Champ texte. Code de sortie utilisé par le zootechicien pour catégoriser l'évênement de sortie.
-
-Date de mort
-
-Un calendrier s'affiche lorsque l'on clique sur la zone de saisie.
-
-Attention la date de mort ne peux pas être antérieure à la date d'arrivée ni à la date de départ.
-
-Code Echant. genet
-
-Correspondance à le code utilisé en génétique (voir avec Joel Merlet).
-
-Code génotype
-
-Correspondance à le code du génotype (voir avec Joel Merlet).
-
-Remarque
-
-champ libre textuel.
 
 
-lorsque l'on souhaite ajouter des données ou modifier les données d'un animal existant, on peut afficher les données de l'animal en entrant sont numéro inra dans le champ N° de l'animal
 
-Ainsi si l'on retre 211, les données de Quorine s'affichent
-
-image
-
-Elles peuvent être alors complétées puis enregistrée en cliquant sur Enregistrer:
-
-ATTENTION: si le bouton Enregistrer est bleu pâle:
-
-image
-
-Cela signifie qu'un champ obligatoire n'a pas été sasie (dans le cas du rappel d'un individu connu, il s'agit généralement du nom de l'utilisateur de l'applicatif). Une fois tous les champ obligatoires remplis, l'enregistrement est autorisé et le bouton devient bleu foncé:
-
-image
-
-image Lorsque l'on en connait pas le N° de l'animal il est possible d'utiliser au préalable l'otuil d'affichage et de trie pour le connaitre. Si on connait le nom de l'animal "Quorine", taper ce nom dans l'encadré en dessous de ani_nom_registre permet de voit le numéro de l'animal dasn la colonne ani_n_inra.
-
-image
-
-lorsque "quori" est entré dans le champ ani_nom_registre, l'individu "Quorine" est sélectionné et le N° de l'animal se trouve dans ani_n_inra.
 2- Affichage des données, trie et export.
 
 L'applicatif permet l'affichage, le trie et l'export de données.
