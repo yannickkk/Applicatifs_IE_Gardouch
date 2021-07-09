@@ -23,7 +23,7 @@ Les tables alimentées par cet applicatif sont contenues dans le schéma main. E
 >
 >tj_observation_time_tob t_individu_ind
 
-<h2 style="center;"> Vue général de l'applicatif capture.</h2>
+<h2 align="center;"> Vue général de l'applicatif capture.</h2>
 
 ![image](https://user-images.githubusercontent.com/39738426/125062205-6ea26580-e0ae-11eb-9c05-5b54deb0b287.png)
 
