@@ -49,9 +49,11 @@ Le champ utilisateur:
 *Une liste déroulante permet de choix d'un utilisateur parmis ceux enregistrés dans la base de données. Pour l'ajout d'un nouvel utilisateur demandez au gestionnaire SI. Ce champ est obligatoire pour pouvoir enregistrer une donnée.
 
 **N° de l'animal**
+
 Le numéro de l'animal est un **entier**. Il correspond au N° Inra de l'animal dans l'installation. Par défaut l'applicatif affiche le prochain numéro disponible pour saisir un nouvel individu entrant dasn l'installation. Ce champ est obligatoire et doit être unique.
 
 **Nom de l'animal**
+
 C'est un champ texte. La plupart des animaux présents dans l'installation ont un nom qui permet aux expérimentateurs de mieux individualiser les animaux. Cependant, historiquement, les animaux du grands enclos qui n'étaient pas soumis à des soins quotidien n'en possédaient pas. Afin d'harmoniser l'ensemble des données et pouvoir développer des applicatifs de saisie de terrain qui affichent les noms des animaux pour les utilisateurs, il a été décidé de rendre ce champ obligatoire. Ce champ prend donc par défaut la valeur "N° de l'animal_". Ce nom est libre mais doit être unique. Il peut être modifié à tout moment suivant besoins des utilisateurs.
 
 ![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
@@ -62,6 +64,7 @@ En plaçant la souris sur la plupart des champs on obtient une aide sur la faço
 *Ainsi lorsque l'on place la souris sur la zone de saisie de Nom, un phylactère d'affiche en dessous avec la mention "Le nom doit être unique"*
 
 **Sexe**
+
 Comme indiqué dans le phylactère correspondant, le sexe doit être renseigné par F, f, M ou m. Ce champ est obligatoire.
 
 **Date naissance précise**
