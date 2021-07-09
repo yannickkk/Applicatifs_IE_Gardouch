@@ -42,7 +42,7 @@ si l'utilisateur est membre du groupe Gardouch_ecriture: l'édition des données
 Certains champs sont obligatoires. Celà signifie que si ils ne sont pas remplis, on en peut pas enregistrer les informations saisies.
 Ces champs sont signaléS par un astérisque ![image](https://user-images.githubusercontent.com/39738426/125034814-596b0e00-e091-11eb-8d1c-7e83ac4d02fe.png)
 
-Le champ utilisateur:
+**Le champ utilisateur:**
 
 ![image](https://user-images.githubusercontent.com/39738426/125048776-8f63be80-e0a0-11eb-93fc-ba6a4566efe8.png)
 
@@ -57,7 +57,8 @@ Le numéro de l'animal est un **entier**. Il correspond au N° Inra de l'animal 
 C'est un champ texte. La plupart des animaux présents dans l'installation ont un nom qui permet aux expérimentateurs de mieux individualiser les animaux. Cependant, historiquement, les animaux du grands enclos qui n'étaient pas soumis à des soins quotidien n'en possédaient pas. Afin d'harmoniser l'ensemble des données et pouvoir développer des applicatifs de saisie de terrain qui affichent les noms des animaux pour les utilisateurs, il a été décidé de rendre ce champ obligatoire. Ce champ prend donc par défaut la valeur "N° de l'animal_". Ce nom est libre mais doit être unique. Il peut être modifié à tout moment suivant besoins des utilisateurs.
 
 ![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
-En plaçant la souris sur la plupart des champs on obtient une aide sur la façon de renseigner le champ correspondant.
+
+*En plaçant la souris sur la plupart des champs on obtient une aide sur la façon de renseigner le champ correspondant.*
 
 ![image](https://user-images.githubusercontent.com/39738426/125038147-5c67fd80-e095-11eb-93d3-ff5b8eb2aede.png)
 
