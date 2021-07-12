@@ -149,13 +149,28 @@ Enfin une fois les tries réalisés, le résultat peut être exporté dans plusi
 
 <h2> 2.1- le formulaire de saisie </h2>
 
-Le formumaire de saisie du deuxième onglet est composé de 5 sections: Poids, heures et durées, Mensurations, Mesures ponctuelles, Mesures répétées
+Le formumaire de saisie du deuxième onglet est composé de 5 sections: Poids, heures et durées, Mensurations, Mesures ponctuelles, Mesures répétées.
+
+![image](https://user-images.githubusercontent.com/39738426/125269475-056a5e80-e309-11eb-9034-823904ed62cd.png)
+*vue d'ensemble du formulaire de saisie du second onglet de l'application*
 
 <h3> 2.1.1- Le poids </h3>
 
+Le poids peut être entré directement dans le cas ou l'animal passe seul sur une balance. Dans ce cas on ne sélectionne pas de numéro de sabot dans le premier menu déroulant et on sélectionne "poids_animal" dasn el second menu déroulant, on entre ensuite la valeur du poids au format numérique. Une remarque peut être ajoutée.
+
+Le poids peut être déduit du poids de la boite de contention (pleine - vide) appelée un sabot. Ainsi on peut choisir dans la première liste déroulante le numéro du sabot qui contient l'animal (écrit au marqueur sur celui-ci) et entrer successivement le poids du "sabot_plein" et le poids du "sabot_vide", le poids de l'animal sera automatiquement entré dasn la base de données. 
+
 <h3> 2.1.2- Les heures et durée </h3>
 
+une liste déroulante permet de choisir l'heure ou la durée à saisir.
+![image](https://user-images.githubusercontent.com/39738426/125269140-b6bcc480-e308-11eb-9c51-714c1f39604a.png)
+*ensemble des heures et durées qui peuvent être saisies.*
+
+On entre ensuite une heure dans les champs heure et minutes et une remarque éventuelle dans el champ textuel remarque.
+
 <h3> 2.1.3- Les Mensurations </h3>
+
+
 
 <h3> 2.1.4- Les Mesures ponctuelles </h3>
 
@@ -168,6 +183,10 @@ Voir la section [1.2- l'affichage des données](#-12--laffichage-des-donn%C3%A9e
 <h1> 3- Le comportement </h1>
 
 Le formumaire de saisie du deuxième onglet est composé de 4 sections décrivant le comportement: au filet, dans le sabot, sur la table, au lâché
+
+
+![image](https://user-images.githubusercontent.com/39738426/125269641-3054b280-e309-11eb-9f3b-7fb9d2c7d85f.png)
+*vue d'ensemble du formulaire de saisie du second onglet de l'application*
 
 <h2> 3.1- le formulaire de saisie </h2>
 
