@@ -97,12 +97,17 @@ Ce champ est un champ textuel permettant de décrire le collier dont est équip�
 
 1.1.3- Prélèvements
 
+C'est un ensemble de 4 listes déroulantes qui permettent de saisir l'ensembl des prélèvements réalisés sur un animal. A chaque prélèvement est assicié un nombre d'échantillons prélevés. Chaque échantillon prélevé peut faire l'objet d'une remarque textuelle libre.
 
+1.1.3- Comptges
 
-2- Affichage des données, trie et export.
+Un menu déroulant permet de renseigner le nombre de chaque taxon de parasite rescencés dans la liste déroulante "Parasites".
+Pour les données de présences/abscences, l'opérateur utilisera les cases à cocher.
+Deux champ libres permettent de renseigner les blessures et traitements appliqués.
 
-L'applicatif permet l'affichage, le trie et l'export de données.
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png) cette section est à améliorer. Ainsi dasn la version V2.0 Les champs traitant de l'état des bois, de la gestation et de la diarrhée apparaitront dans une section propre.
 
+- Affichage des données, trie et export.
 L'affichage
 
 Par défaut, l'ensemble des individus qui sont ou on étés présents dans l'unité expérimentale sont affichés.
