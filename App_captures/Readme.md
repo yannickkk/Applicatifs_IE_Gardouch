@@ -160,7 +160,7 @@ Le poids peut être entré directement dans le cas ou l'animal passe seul sur un
 
 Le poids peut être déduit du poids de la boite de contention (pleine - vide) appelée un sabot. Ainsi on peut choisir dans la première liste déroulante le numéro du sabot qui contient l'animal (écrit au marqueur sur celui-ci) et entrer successivement le poids du "sabot_plein" et le poids du "sabot_vide", le poids de l'animal sera automatiquement entré dasn la base de données. 
 
-<h3> 2.1.2- Les heures et durée </h3>
+<h3> 2.1.2- Les heures et durées </h3>
 
 une liste déroulante permet de choisir l'heure ou la durée à saisir.
 ![image](https://user-images.githubusercontent.com/39738426/125269140-b6bcc480-e308-11eb-9c51-714c1f39604a.png)
@@ -170,11 +170,20 @@ On entre ensuite une heure dans les champs heure et minutes et une remarque éve
 
 <h3> 2.1.3- Les Mensurations </h3>
 
+![image](https://user-images.githubusercontent.com/39738426/125270059-993c2a80-e309-11eb-9ba5-b70884d8cd28.png)
+*Une liste déroulante permet de choisir de choisir une mesure*
 
+Dès qu'une valeur est entrée pour une mesure, celle-ci est entrée dans la base de données.
 
 <h3> 2.1.4- Les Mesures ponctuelles </h3>
 
+Certaines mesures font l'objet d'une dénomination de variable dans la base données. A une valeur correspond une et une seule mesure. C'est le cas de cardio_20s_1, cardio_20sec_2, cardio_20sec_3. Ses données peuvent être associées à une heure ou non.
+
+Si on veut effectuer plus de trois mesure du rythme cardiaque, on utilisera les mesures répétées ou suiiv du rythme cardiaque décrit dans al section suivant.
+
 <h3> 2.1.5- Les Mesures répétées </h3>
+
+Une mesure peut être répétée une infinité de fois, ainsi le rythme cardiaque peut être suivi tout au long de a capture (monitoring), on sélectionnera alors pour cet exemple le suivi "rythme_cardiaque" dans le premier menu déroulant puis on entrera une valeur et une heure au format hh:mm:ss pour chacune de ses valeurs. Une remarque pourra être associée à chaque mesure.
 
 <h2> 2.2- l'affichage des données </h2>
 
@@ -184,19 +193,45 @@ Voir la section [1.2- l'affichage des données](#-12--laffichage-des-donn%C3%A9e
 
 Le formumaire de saisie du deuxième onglet est composé de 4 sections décrivant le comportement: au filet, dans le sabot, sur la table, au lâché
 
-
 ![image](https://user-images.githubusercontent.com/39738426/125269641-3054b280-e309-11eb-9f3b-7fb9d2c7d85f.png)
-*vue d'ensemble du formulaire de saisie du second onglet de l'application*
+*vue d'ensemble du formulaire de saisie du troisième onglet de l'application*
 
 <h2> 3.1- le formulaire de saisie </h2>
 
 <h3> 3.1.1- Comportement au filet </h3>
 
+![image](https://user-images.githubusercontent.com/39738426/125271208-c937fd80-e30a-11eb-86c5-4b5b7e1c7693.png)
+
+Le comportement au filet est sélectionné parmis une liste déroulante  
+
+![image](https://user-images.githubusercontent.com/39738426/125271379-f84e6f00-e30a-11eb-813f-765f5731c9bd.png)
+
+Et une valeur (ici un boléen) lui est affecté.
+
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png) les listes de valeurs dépendent du choix qui est fait dasn la première liste déroulante.
+
+![image](https://user-images.githubusercontent.com/39738426/125271509-20d66900-e30b-11eb-8df5-13c9cf74a992.png)
+*ainsi lorsque cri est sélectionné la valeur n'est plus un boléen mais un nombre de cri.*
+
 <h3> 3.1.2- Comportement dans le sabot </h3>
+
+![image](https://user-images.githubusercontent.com/39738426/125271831-73178a00-e30b-11eb-93fd-29ec7076c561.png)
+
+Une liste de comportement permet de sélectionner le comportement souhaité auquel on affecte une valeur. Une remarque et el nom de la personne qui observe le comportement peut être ajouté. 
 
 <h3> 3.1.3- Comportement sur la table </h3>
 
+![image](https://user-images.githubusercontent.com/39738426/125272037-ab1ecd00-e30b-11eb-9a12-12736a746215.png)
+
+Le fonctionnement est le même que pour el comportement en sabot.
+
 <h3> 3.1.4- Comportement au lâché </h3>
+
+![image](https://user-images.githubusercontent.com/39738426/125272108-c25dba80-e30b-11eb-842c-89e0e1c6d030.png)
+
+Le fonctionnement est le même que pour el comportement en sabot.
+
+Des informations complémentaire au lâcher peuvent être sasie comme la visibilité, le nombre d'arrêt que réalise l'animal avant de disparaitre et le nombre de personnes présentent lors du lâcher.
 
 <h2> 3.2- l'affichage des données </h2>
 
