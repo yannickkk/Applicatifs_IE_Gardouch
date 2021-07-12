@@ -8,12 +8,13 @@ Applicatif client de bd_gardouch permettant **la visualisation** et **la mise à
 
 ### Vue générale de l'applicatif
 
-![App_vue_generale](./Images/vu_ensemble_App.png)
-_Vue d'ensemble de l'applicatif_ 
+![image](https://user-images.githubusercontent.com/39738426/125275984-f804a280-e30f-11eb-9fec-7f87851e5659.png)
+_Vue d'ensemble de la première page de l'application_ 
 
-L'applicatif comporte deux onglets, "Animaux" et "Enclos" (en haut de l'image ci-dessus à droite de IE Gardouch et ci-dessous).
+L'application comporte deux onglets, "Animaux" et "Enclos" (en haut de l'image ci-dessus à droite de IE Gardouch et ci-dessous).
 
-![image](https://user-images.githubusercontent.com/39738426/121326110-88ffec80-c912-11eb-9878-daa4c11f02c1.png)
+![image](https://user-images.githubusercontent.com/39738426/125276104-1cf91580-e310-11eb-890d-53b26ca3ac65.png)
+_Vue d'ensemble de la deuxième page de l'application_
 
 Le premier onglet nommé **Animaux** permet d'afficher les mouvements de chaque animal au cours du temps et au travers des différents enclos de l'installation expérimentale.
 
