@@ -107,6 +107,11 @@ Deux champ libres permettent de renseigner les blessures et traitements appliqu�
 
 ![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png) cette section est à améliorer. Ainsi dasn la version V2.0 Les champs traitant de l'état des bois, de la gestation et de la diarrhée apparaitront dans une section propre.
 
+1.1.3- Anesthésie
+
+Permet de décrire les produits utilisés pour l'anesthésie ainsi que les heures d'anesthésie et de réveil. Les doses de produits sont décrites en détail sur l'applicatif [Sicpa sanitaire](https://forge-dga.jouy.inra.fr/projects/sicpa-sanitaire-web)
+
+
 - Affichage des données, trie et export.
 L'affichage
 
