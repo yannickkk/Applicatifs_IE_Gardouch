@@ -111,32 +111,36 @@ Deux champ libres permettent de renseigner les blessures et traitements appliqu�
 
 Permet de décrire les produits utilisés pour l'anesthésie ainsi que les heures d'anesthésie et de réveil. Les doses de produits sont décrites en détail sur l'applicatif [Sicpa sanitaire](https://forge-dga.jouy.inra.fr/projects/sicpa-sanitaire-web)
 
+<h2> 1.2- l'affichage des données </h2>
 
-- Affichage des données, trie et export.
-L'affichage
+L'applicatif permet l'affichage, le trie et l'export de données.
+
+**L'affichage**
 
 Par défaut, l'ensemble des individus qui sont ou on étés présents dans l'unité expérimentale sont affichés.
 
 Une case à coher permet de réduire cette sélection aux seuls animaux présents dasn l'installation.
 
-image
+![image](https://user-images.githubusercontent.com/39738426/125049251-131dab00-e0a1-11eb-86ca-cae5424a2b92.png)
 
-Le trie
+**Le trie**
 
 Le trie des données peut être réalisé de deux façon. La première consiste à saisir la valeur recherchée directement dans la cellule de recherche (voir l'exemple précédent).
 
-La seconde consiste à utiliser les outils de sélection proposé par l'application en dessous de la zone de saisie. Ces outils varient en fonction du type de données. Par exemple dans un champ texte la recherche se fera par autocomplétion (donc par une saisie directe dasn le champ). Pour une valeur logique (vrai/faux) une liste déroulante s'affiche qui permet de sélectionner l'une ou l'autre des valeurs. Pour un entier ou une date c'est un outil de sélection de plage de valeurs qui s'affiche.
+La seconde consiste à utiliser les outils de sélection proposé par l'application en dessous de la zone de saisie. Ces outils varient en fonction du type de données. Par exemple dans un champ texte la recherche se fera par autocomplétion (donc par une saisie directe dasn le champ).
+Pour une valeur logique (vrai/faux) une liste déroulante s'affiche qui permet de sélectionner l'une ou l'autre des valeurs.
+Pour un entier ou une date c'est un outil de sélection de plage de valeurs qui s'affiche.
 
-image
+![image](https://user-images.githubusercontent.com/39738426/125054881-f4baae00-e0a6-11eb-9f9e-1070d1aff9ca.png)
 
 Les trie sont cumulatifs. Ainsi une peut créer des trie sur plusieurs champs simultanément. Ainsi si l'utilisateur souhaite savoir quels sont les males nés entre 2000 et 2005, il va dans un premier temps taper "M" ou "m" dans ani_sexe puis sélectioner la plage 2000-2001 dans ani_naissance_entier. Le résultat s'affiche alors.
 
-image
+![image](https://user-images.githubusercontent.com/39738426/125055572-a063fe00-e0a7-11eb-93c4-ffdc1fbeaec9.png)
 
-image On peut réaliser un trie sur une plage de valeurs directement en saisissant la plage dans la zone de saisie avec le formalisme suivant pour l'exemple précédent: 2000 ... 2001 on obtiendra le même résultat que précédemment.
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png) On peut réaliser un trie sur une plage de valeurs directement en saisissant la plage dans la zone de saisie avec le formalisme suivant pour l'exemple précédent: 2000 ... 2001 on obtiendra le même résultat que précédemment.
 
-l'export
+**l'export**
 
 Enfin une fois les tries réalisés, le résultat peut être exporté dans plusieur format en cliquant simplement sur el format désiré:
 
-image
+![image](https://user-images.githubusercontent.com/39738426/125056087-2d0ebc00-e0a8-11eb-9acc-81cb1e14998a.png)
