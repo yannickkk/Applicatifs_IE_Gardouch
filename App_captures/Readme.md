@@ -163,7 +163,9 @@ Le poids peut être déduit du poids de la boite de contention (pleine - vide) a
 <h3> 2.1.2- Les heures et durées </h3>
 
 une liste déroulante permet de choisir l'heure ou la durée à saisir.
+
 ![image](https://user-images.githubusercontent.com/39738426/125269140-b6bcc480-e308-11eb-9c51-714c1f39604a.png)
+
 *ensemble des heures et durées qui peuvent être saisies.*
 
 On entre ensuite une heure dans les champs heure et minutes et une remarque éventuelle dans el champ textuel remarque.
