@@ -35,8 +35,7 @@ L'applicatif peut servir à la visualisation, au trie et à l'export des donnée
 
 si l'utilisateur est membre du groupe Gardouch_lecture: seul la visualisation, le trie et l'export des données est autorisé. si l'utilisateur est membre du groupe Gardouch_ecriture: l'édition des données est autorisée en plus de la visualisation, du trie et de l'export des données.
 
-![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
-image cette fonctionalité sera implémentée dans la V0.2. Acutellement tous les utilisateurs ont les droits d'écriture.
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png) cette fonctionalité sera implémentée dans la V0.2. Acutellement tous les utilisateurs ont les droits d'écriture.
 
 Certains champs sont obligatoires. Celà signifie que si ils ne sont pas remplis, on en peut pas enregistrer les informations saisies. Ces champs sont signalés par un astérisque ![image](https://user-images.githubusercontent.com/39738426/125034814-596b0e00-e091-11eb-8d1c-7e83ac4d02fe.png)
 
@@ -48,7 +47,7 @@ Le formumaire de saisie du premier onglet est composé de 4 sections: Identifian
 
 <h3> 1.1.1- Identifiants </h3>
 
-cette section regroupe l'ensemble des identifiants de l'opérateur de saisie et de la l'observation (la capture physique est un type d'observation. Une observation se caractérise par: un animal + une date)
+cette section regroupe l'ensemble des identifiants de l'opérateur de saisie et de l'observation (la capture physique est un type d'observation. Une observation se caractérise par: un animal + une date)
 
 **Le champ utilisateur:**
 
