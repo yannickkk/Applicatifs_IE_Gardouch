@@ -144,3 +144,27 @@ Les trie sont cumulatifs. Ainsi une peut créer des trie sur plusieurs champs si
 Enfin une fois les tries réalisés, le résultat peut être exporté dans plusieur format en cliquant simplement sur el format désiré:
 
 ![image](https://user-images.githubusercontent.com/39738426/125056087-2d0ebc00-e0a8-11eb-9acc-81cb1e14998a.png)
+
+<h1> 2- Les mesures </h1>
+
+<h2> 2.1- le formulaire de saisie </h2>
+
+Le formumaire de saisie du deuxième onglet est composé de 5 sections: Poids, heures et durées, Mensurations, Mesures ponctuelles, Mesures répétées
+
+<h3> 2.1.1- Le poids </h3>
+
+<h3> 2.1.2- Les heures et durée </h3>
+
+<h3> 2.1.3- Les Mensurations </h3>
+
+<h3> 2.1.4- Les Mesures ponctuelles </h3>
+
+<h3> 2.1.5- Les Mesures répétées </h3>
+
+<h2> 2.2- l'affichage des données </h2>
+
+[1.2- l'affichage des données](#-1.2- l'affichage des données)
+
+
+<h1> 2- Le comportement </h1>
+
