@@ -59,4 +59,26 @@ Le zoom peut permettre de voir que Fanny est entré dans l'IE de Gardouch le 1er
 
 ![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png) **La base de données ne tolère pas qu'un individu soit dans deux enclos à la fois sauf le jour ou l'animal change d'enclos.**
 
-Modification 
+<h2> changement d'enclos d'un animal </h2>
+
+Tout d'abord un utilisateur et un animal doivent être sélectionner.
+
+![image](https://user-images.githubusercontent.com/39738426/125275240-128a4c00-e30f-11eb-8843-ee9bff6c8827.png)
+
+Une fois que l'on clique sur "Sélectionner des animaux" (i.e que l'on valide la sélection), l'interface change pour permettre la saisie des données:
+
+![image](https://user-images.githubusercontent.com/39738426/125275280-203fd180-e30f-11eb-8843-1e6fa5fd393a.png)
+
+Les champs suivant sont maintenant visibles:
+Date de début
+Date de fin
+enclos
+Remarque
+
+Ils permettent d'assigner un nouvel enclos à un animal ou de modifier les données existantes.
+
+<h3>Pour affecter l'animal à un nouvel enclos: </h3>
+
+
+<h3>Pour modifier les données d'une affectation de l'animal: </h3>
+
