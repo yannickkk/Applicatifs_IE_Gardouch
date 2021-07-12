@@ -163,7 +163,7 @@ Le formumaire de saisie du deuxième onglet est composé de 5 sections: Poids, h
 
 <h2> 2.2- l'affichage des données </h2>
 
-[1.2- l'affichage des données](#l'affichage des données)
+[1.2- l'affichage des données](#<h2> 1.2- l'affichage des données </h2>)
 
 
 <h1> 2- Le comportement </h1>
