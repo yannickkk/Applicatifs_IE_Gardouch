@@ -164,7 +164,21 @@ Le formumaire de saisie du deuxième onglet est composé de 5 sections: Poids, h
 <h2> 2.2- l'affichage des données </h2>
 
 Voir la section [1.2- l'affichage des données](#-12--laffichage-des-donn%C3%A9es-)
-https://github.com/yannickkk/Applicatifs_IE_Gardouch/tree/main/App_captures#-12--laffichage-des-donn%C3%A9es-
 
-<h1> 2- Le comportement </h1>
+<h1> 3- Le comportement </h1>
 
+Le formumaire de saisie du deuxième onglet est composé de 4 sections décrivant le comportement: au filet, dans le sabot, sur la table, au lâché
+
+<h2> 3.1- le formulaire de saisie </h2>
+
+<h3> 3.1.1- Comportement au filet </h3>
+
+<h3> 3.1.2- Comportement dans le sabot </h3>
+
+<h3> 3.1.3- Comportement sur la table </h3>
+
+<h3> 3.1.4- Comportement au lâché </h3>
+
+<h2> 3.2- l'affichage des données </h2>
+
+Voir la section [1.2- l'affichage des données](#-12--laffichage-des-donn%C3%A9es-)
