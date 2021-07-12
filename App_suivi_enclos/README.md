@@ -35,7 +35,7 @@ La liste déroulante chevreuil(s) permet la sélection d'un animal en particulie
 
 ![image](https://user-images.githubusercontent.com/39738426/121325940-581fb780-c912-11eb-8717-5dbb6f530ad4.png) **attention si la case "Afficher seulement les animaux présent aujourd'hui" est cochée (cas par défaut), seuls les animaux encore présents actuellement dans l'installation s'affichent. Pour pouvoir sélectionner n'importe quel animal il faut penser à décocher cette case.**
 
-Affichage du mouvement de la chevrette Fanny:
+<h2> Affichage du mouvement de la chevrette Fanny:</h2>
 
 ![image](https://user-images.githubusercontent.com/39738426/121327031-5f939080-c913-11eb-85f9-0babc00cf76f.png)
 
@@ -59,4 +59,4 @@ Le zoom peut permettre de voir que Fanny est entré dans l'IE de Gardouch le 1er
 
 ![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png) **La base de données ne tolère pas qu'un individu soit dans deux enclos à la fois sauf le jour ou l'animal change d'enclos.**
 
-
+Modification 
