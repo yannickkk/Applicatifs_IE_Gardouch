@@ -173,6 +173,7 @@ On entre ensuite une heure dans les champs heure et minutes et une remarque éve
 <h3> 2.1.3- Les Mensurations </h3>
 
 ![image](https://user-images.githubusercontent.com/39738426/125270059-993c2a80-e309-11eb-9ba5-b70884d8cd28.png)
+
 *Une liste déroulante permet de choisir de choisir une mesure*
 
 Dès qu'une valeur est entrée pour une mesure, celle-ci est entrée dans la base de données.
@@ -196,6 +197,7 @@ Voir la section [1.2- l'affichage des données](#-12--laffichage-des-donn%C3%A9e
 Le formumaire de saisie du deuxième onglet est composé de 4 sections décrivant le comportement: au filet, dans le sabot, sur la table, au lâché
 
 ![image](https://user-images.githubusercontent.com/39738426/125269641-3054b280-e309-11eb-9f3b-7fb9d2c7d85f.png)
+
 *vue d'ensemble du formulaire de saisie du troisième onglet de l'application*
 
 <h2> 3.1- le formulaire de saisie </h2>
@@ -213,6 +215,7 @@ Et une valeur (ici un boléen) lui est affecté.
 ![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png) les listes de valeurs dépendent du choix qui est fait dasn la première liste déroulante.
 
 ![image](https://user-images.githubusercontent.com/39738426/125271509-20d66900-e30b-11eb-8df5-13c9cf74a992.png)
+
 *ainsi lorsque cri est sélectionné la valeur n'est plus un boléen mais un nombre de cri.*
 
 <h3> 3.1.2- Comportement dans le sabot </h3>
