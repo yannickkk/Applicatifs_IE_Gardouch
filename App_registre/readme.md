@@ -117,6 +117,9 @@ Saisie d'une date de sortie de l'installation.
 
 **Attention cette date doit être postérieure à la date d'entrée**
 
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
+Lorsque cette date est saisie, l'application met à jour la table d'association animal-enclos (nommée t_asso_ani_enc_aae) afin que l'animal soit déclaré comme étant sortie de l'enclos ou il se trouvait à cette date. 
+
 **Code sortie**
 
 Champ texte. Code de sortie utilisé par le zootechicien pour catégoriser l'évênement de sortie. 
