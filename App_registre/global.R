@@ -22,10 +22,10 @@ for (p in mypackages){
   }
 }
 
-source("scripts/fonctions.R")
+devtools::source_url("https://github.com/yannickkk/mes_fonctions/blob/main/fonctions_sans_connect.R?raw=TRUE")
 
-source("C:/Users/ychaval/Documents/BD_Gardouch/Programmes/R/con_serveur_dbgardouch.R")
-con<-gar_serveur
+source("C:/Users/ychaval/Documents/BD_Gardouch/Programmes/R/structure_actuelle/con_server_db_gardouch.R")
+con<-serveur_gardouch
 #####define mandatory fields
 fieldsMandatory <- c("login","ani_nom_registre", "ani_n_inra", "ani_sexe", "ani_vient_de", "ani_local","ani_espece_id","ani_date_arrivee")
 

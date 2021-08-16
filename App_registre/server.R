@@ -9,6 +9,8 @@
 #### 
 #### repository source: C:\Users\ychaval\Documents\BD_tools\Shinyforms\Programmes\Gardouch
 #########################################################################################################
+source("C:/Users/ychaval/Documents/BD_Gardouch/Programmes/R/structure_actuelle/con_server_db_gardouch.R")
+con<-serveur_gardouch
 
 # Define server
 shinyServer(function(input, output, session) {
