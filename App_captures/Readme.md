@@ -1,4 +1,6 @@
 
+# Documention de l'application de saisie des captures de Chevreuils de l'Insatllation Expériementale de Gardouch.
+
 Cet applicatif sert à alimenter la base de données de l'installation expérimentale de Gardouch (db_gardouch).
 
 Les tables alimentées par cet applicatif sont contenues dans le schéma main. Elles se nomment:
