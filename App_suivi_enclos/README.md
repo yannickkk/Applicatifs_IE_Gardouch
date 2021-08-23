@@ -1,4 +1,4 @@
-# Gardouch_suivi_enclos
+# Documentation de l'application Gardouch_suivi_enclos
 Applicatif client de bd_gardouch permettant **la visualisation** et **la mise à jour** des mouvements d'animaux au sein des parcs d'élevage de l'installation expérimentale de Gardouch.
 
 ## Fonctionnement de l'applicatif
