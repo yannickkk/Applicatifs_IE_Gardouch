@@ -85,9 +85,23 @@ Ces champs permettent d'assigner un animal à un nouvel enclos ou de modifier le
 
 <h3>Pour affecter l'animal à un nouvel enclos: </h3>
 
+Imaginons que l'utilisateur souhaite affecter Jambon à un nouvel enclos.
 
+L'utilisateur doit tout d'abord sélectionner jambon (et seulement cet animal) dans le champ Chevreuil(s) et valider son choix en cliquant sur "Sélectionner les animaux" afin que les champs de saisie s'affichent.
 
+![image](https://user-images.githubusercontent.com/39738426/130475246-c1ac6370-5489-4796-a2fc-30df52eac8a7.png)
+*Sélection de l'animal Jambon par Nicolas Cebe. Une fois que l'utilisateur a validé son choix en cliquant sur "Sélectionner animaux", l'application passe en mode saisie*
 
+l'utilisateur peut alors entrer une date de début et sélectionner un nouvel enclos pour y affecter l'animal.
+
+![image](https://user-images.githubusercontent.com/39738426/130475772-aca01565-a56f-410a-a910-4a22fd6d2e5e.png)
+*Ici l'animal qui était dans l'enclos 6a est déplacé vers l'enclos 7*
+
+Il n'est pas nécessaire d'indiquer une date de fin pour l'application propose de valider le déplacment (apparition du bouton "Entrer"). Une fois que l'on appui sur "entrer" le transfert de l'animal est effectif.
+
+![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png) **Ne pas se fier à l'affichage il faut zoomer énormément pour voir le changement comme sur al capture d'écran ci-dessous. Les transferts se font toujours à 00:00:00 car les utilisateur n'ont pas souhaités tenir compte de l'heure de changeemnt d'enclos.**
+
+![image](https://user-images.githubusercontent.com/39738426/130476410-98fc162f-731b-4d54-8e6d-18327450e633.png)
 
 <h3>Pour modifier les données d'une affectation de l'animal: </h3>
 
@@ -102,6 +116,9 @@ De même si l'on veut changer la date d'entrée ou de sortie de l'enclos il suff
 
 ![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png) **La base de données ne tolère pas qu'un individu soit dans deux enclos à la fois sauf le jour ou l'animal change d'enclos.**
 
-Dans le cas de Jambon , si on veut repousser la Date de fin dans l'enclos 7, il faudra d'abord sélectionner l'enclos 6ab, dans lequel Jambon est allé ensuite, puis changer la date de début dasn 6ab pour al reculer d'un mois par exemple, afin ensuite de pouvoir ensuite repousser la date de fin dans l'enclos 7 d'un mois.
+Dans le cas de Jambon , si on veut repousser la Date de fin dans l'enclos 7 de quinze jours, il faudra d'abord sélectionner l'enclos 6ab, qui a hébergé jambon à la suite de l'enclos 7 (voir capture d'écran ci-dessous), puis changer la date de début dans l'enclos 6ab pour la reculer de quinze jours. On pourra alors repousser la date de fin dans l'enclos 7 de quinze jours.
 
 ![image](https://user-images.githubusercontent.com/39738426/130473356-b3ab24e8-b70d-4ae9-b19c-4792b8cae610.png)
+*L'utilisateur qui souhaite changer la date de fin dans l'enclos 7 pour Jambon devra d'abord sélectionner l'enclos 6ab et repousser la date de début dans cet enclos de la période souhaitée afin de pouvoir ensuite changer la date de fin de l'enclos 7.*
+
+
