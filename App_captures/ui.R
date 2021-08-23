@@ -8,7 +8,7 @@
 #
 
 shinyUI(
-  navbarPage("IE Gardouch: ", id = "tabs",
+  navbarPage(windowTitle = "IE Gardouch: ", title=div(tags$a(href="https://github.com/yannickkk/Applicatifs_IE_Gardouch/blob/main/App_captures/Readme.md","Documentation", target ="_blank")), id = "tabs",
              #tabsetPanel(id = "tabs",
              tabPanel(title = "Marquage/prelevement/traitement", value = "A",
                       tags$head( ##########definition de class de css pour séparer les blocs de saisie avec des lignes grises
