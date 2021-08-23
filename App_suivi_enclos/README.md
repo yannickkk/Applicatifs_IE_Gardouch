@@ -58,8 +58,6 @@ Lorsque l'image est zommée il est possible de se déplacer dans la ligne de tem
 Le zoom peut permettre de voir que Fanny est entré dans l'IE de Gardouch le 1er Mai 2005 (on pourrait afficher l'heure si les données avaient ce niveau de précision, ici seul le jour est considéré).
 ![image](https://user-images.githubusercontent.com/39738426/121327771-0a0bb380-c914-11eb-9d51-4675b468e745.png)
 
-![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png) **La base de données ne tolère pas qu'un individu soit dans deux enclos à la fois sauf le jour ou l'animal change d'enclos.**
-
 <h2> changement d'enclos d'un animal </h2>
 
 Tout d'abord un utilisateur et un animal doivent être sélectionner.
@@ -70,12 +68,17 @@ Une fois que l'on clique sur "Sélectionner des animaux" (i.e que l'on valide la
 
 ![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png) **L'application n'entre en mode édition que si un seul individu est sélectionné. Dans le cas contraire l'application reste en mode visualisation.**
 
+
 ![image](https://user-images.githubusercontent.com/39738426/125275280-203fd180-e30f-11eb-8843-1e6fa5fd393a.png)
 
 Les champs suivant sont maintenant visibles:
+
 Date de début
+
 Date de fin
+
 enclos
+
 Remarque
 
 Ces champs permettent d'assigner un animal à un nouvel enclos ou de modifier les dates d'entrée/sortie de l'enclos ou l'enclos lui même.
@@ -83,5 +86,22 @@ Ces champs permettent d'assigner un animal à un nouvel enclos ou de modifier le
 <h3>Pour affecter l'animal à un nouvel enclos: </h3>
 
 
+
+
+
 <h3>Pour modifier les données d'une affectation de l'animal: </h3>
 
+Sélectionner l'association animal/enclos que vous désirez modifier.
+
+![image](https://user-images.githubusercontent.com/39738426/130471932-7459df1c-9de5-4331-a24b-0d13768b0d5e.png)
+*ici on a sélectionné la période durant laquelle Jambon était dans l'enclos numéro 7 en cliquant avec la souris sur cette portion de la ligne de temps. La portion sélectionnée devient jaune et les champs Date de début, enclos, Date de fin et Remarque prennent les valeurs correspondantes*
+
+Si on désire changer l'enclos il suffit de sélectionner dans le menu déroulant un nouvel enclos et cliquer sur le bouton "entrer" pour valider le choix.
+
+De même si l'on veut changer la date d'entrée ou de sortie de l'enclos il suffit de cliquer sur la date que l'on désire changer. Un clendrier apparait qui permet de sélectionner la nouvelle date avant de valider le choix en cliquant sur "entrer".
+
+![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png) **La base de données ne tolère pas qu'un individu soit dans deux enclos à la fois sauf le jour ou l'animal change d'enclos.**
+
+Dans le cas de Jambon , si on veut repousser la Date de fin dans l'enclos 7, il faudra d'abord sélectionner l'enclos 6ab, dans lequel Jambon est allé ensuite, puis changer la date de début dasn 6ab pour al reculer d'un mois par exemple, afin ensuite de pouvoir ensuite repousser la date de fin dans l'enclos 7 d'un mois.
+
+![image](https://user-images.githubusercontent.com/39738426/130473356-b3ab24e8-b70d-4ae9-b19c-4792b8cae610.png)
