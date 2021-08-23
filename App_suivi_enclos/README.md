@@ -99,7 +99,7 @@ l'utilisateur peut alors entrer une date de début et sélectionner un nouvel en
 
 Il n'est pas nécessaire d'indiquer une date de fin pour l'application propose de valider le déplacment (apparition du bouton "Entrer"). Une fois que l'on appui sur "entrer" le transfert de l'animal est effectif.
 
-![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png) **Ne pas se fier à l'affichage il faut zoomer énormément pour voir le changement comme sur al capture d'écran ci-dessous. Les transferts se font toujours à 00:00:00 car les utilisateur n'ont pas souhaités tenir compte de l'heure de changeemnt d'enclos.**
+![image](https://user-images.githubusercontent.com/39738426/121325887-4b02c880-c912-11eb-8cc2-84afbdbb4de5.png) **Ne pas se fier à l'affichage car il faut zoomer énormément pour que le changement soit visible (comme sur la capture d'écran ci-dessous). Les transferts se font toujours à 00:00:00 car les utilisateurs de l'Installation n'ont pas souhaités tenir compte de l'heure de changeemnt d'enclos.**
 
 ![image](https://user-images.githubusercontent.com/39738426/130476410-98fc162f-731b-4d54-8e6d-18327450e633.png)
 
