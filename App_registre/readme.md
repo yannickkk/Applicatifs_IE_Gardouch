@@ -29,7 +29,7 @@ Les tables alimentées par cet applicatif sont contenues dans le schéma main. E
 <h2 align="center">Vue général de l'application registre.</h2>
 
 
-![image](https://user-images.githubusercontent.com/39738426/125032324-16f40200-e08e-11eb-9c82-579477ce669d.png)
+![image](https://user-images.githubusercontent.com/39738426/136225794-a84260fe-a891-4893-8774-c0cdd2114081.png)
 
 *L'application se compose de deux parties: 1-le formulaire de saisie dans la partie supérieure; 2-l'affichage des données dans la partie inférieure.*
 
