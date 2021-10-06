@@ -99,6 +99,17 @@ Case à cocher qui permet de savoir si l'animal est né à Gardouch ou si il vie
 
 Champ textuel obligatoire. Elevage ou localité d'origine si l'animal vient de l'extérieur, numéro de l'enclos de naissance si l'animal est né dans l'installation expériementale.
 
+**Enclos d'entrée**
+
+C'est un champ mandataire car tout animal entrant dans l'installation (nouvel animal) doit être affecté à un enclos (ses changements d'enclos seront ensuite saisie à l'aide de l'application suivi_enclos). La présence de ce champ dans le formulmaire de registre a pour objectif :
+- d'éviter à l'utilisateur de devoir créer une associaton animal/enclos lors de l'arrivée d'un nouvel animal dans l'application suivi_enclos.
+- d'éviter, en cas d'oublie de l'utilisateur, d'avoir un animal dans le registre qui ne serait pas affecté à un enclos.
+
+C'est une liste déroulante qui contient tous les enclos de l'installation expérimentale. 
+
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
+Lorsqu'un enclos est sélectionné à l'arrivée d'un nouvel animal, l'application met à jour la table d'association animal-enclos (nommée t_asso_ani_enc_aae) afin que l'animal soit déclaré comme étant entré dans l'enclos à sa date d'entrée dans l'installation. 
+
 **Père et Mère**
 
 Deux listes déroulantes qui contiennent respectivement tous les mâles et toutes les femelles de l'installation expériementale.
@@ -107,9 +118,10 @@ Deux listes déroulantes qui contiennent respectivement tous les mâles et toute
 
 Nom de frères et soeurs de l'individu concerné.
 
-**Espèce**
+~~**Espèce**
 
-Champ obligatoire. Par défaut l'espèce est chevreuil car c'est actuellement la seule espèce élevée au sein de l'Installation Expériementale. 
+~~Champ obligatoire. Par défaut l'espèce est chevreuil car c'est actuellement la seule espèce élevée au sein de l'Installation Expériementale.~~
+Dans la version 1.0.2, ce champ ne s'affiche plus l'espèce est par défaut "chevreuil" car c'est la seule espèce actuellement élevée sur l'installation. 
 
 **Date d'arrivée**
 
