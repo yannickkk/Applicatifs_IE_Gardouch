@@ -23,6 +23,8 @@ Les tables alimentées par cet applicatif sont contenues dans le schéma main. E
 > tj_individu_num_ni
 >
 > tj_individu_num_time_nti
+> 
+> t_asso_ani_enc_aae
 
 <h2 align="center">Vue général de l'application registre.</h2>
 
