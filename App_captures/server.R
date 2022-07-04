@@ -1437,8 +1437,8 @@ observeEvent(input$tabs,{
         if (input$ani_n_inra != 0 & !is.na(input$ani_n_inra)){ print(input$ani_n_inra)
          verif<- dbGetQuery(con,paste0("Select distinct(ind_name) from main.t_individu_ind where ind_obj_id = 1")) ###si on rentre autre chose que des chevreuils à Gardouch à modifier
         if (length(grep(input$ani_n_inra,as.character(verif[,1])))!= 0){
-        updateTextInput(session,inputId = "ani_nom_registre", value = utf8(dbGetQuery(con,paste0("SELECT ani_nom_registre from registre_gardouch where ani_n_inra = '",input$ani_n_inra,"' ")))[,1]);
-        updateTextInput(session,inputId = "ani_transpondeur_id", value = utf8(dbGetQuery(con,paste0("SELECT ani_transpondeur_id from registre_gardouch where ani_n_inra = '",input$ani_n_inra,"' ")))[,1]);
+        delay(2000,updateTextInput(session,inputId = "ani_nom_registre", value = utf8(dbGetQuery(con,paste0("SELECT ani_nom_registre from registre_gardouch where ani_n_inra = '",input$ani_n_inra,"' ")))[,1]));
+        delay(2000,updateTextInput(session,inputId = "ani_transpondeur_id", value = utf8(dbGetQuery(con,paste0("SELECT ani_transpondeur_id from registre_gardouch where ani_n_inra = '",input$ani_n_inra,"' ")))[,1]));
         registre<<- registre[which(registre[,"ani_n_inra"] == input$ani_n_inra),];
         data_table_marquage(registre)
                   } else {
@@ -1450,8 +1450,8 @@ observeEvent(input$tabs,{
   
         observeEvent(input$ani_nom_registre, {
         if (input$ani_nom_registre != ""){ 
-        updateNumericInput(session,inputId = "ani_n_inra", value = utf8(dbGetQuery(con,paste0("SELECT ani_n_inra from registre_gardouch where ani_nom_registre = '",input$ani_nom_registre,"' ")))[,1]);
-        updateTextInput(session,inputId = "ani_transpondeur_id", value = utf8(dbGetQuery(con,paste0("SELECT ani_transpondeur_id from registre_gardouch where ani_nom_registre  = '",input$ani_nom_registre,"' ")))[,1]);}
+        delay(2000,updateNumericInput(session,inputId = "ani_n_inra", value = utf8(dbGetQuery(con,paste0("SELECT ani_n_inra from registre_gardouch where ani_nom_registre = '",input$ani_nom_registre,"' ")))[,1]));
+        delay(2000,updateTextInput(session,inputId = "ani_transpondeur_id", value = utf8(dbGetQuery(con,paste0("SELECT ani_transpondeur_id from registre_gardouch where ani_nom_registre  = '",input$ani_nom_registre,"' ")))[,1]));}
         reloadData()
                   })
         
