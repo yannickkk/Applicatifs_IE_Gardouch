@@ -1,6 +1,21 @@
-Application permettant de saisir les coprologies de Gardouch
+# Documention de l'application permettant de saisir les coprologies de Gardouch
 
-Lorsqu'on sasie un individu
+Une coprologie est définie par un expérimentateur (la personne qui a fait la coprologie), un animal (parmis ceux présents dans l'installation) et une date de corpologie. Ses champs doivent donc obligatoirement être renseignés pour pouvoir enregistrer les résultats.
+
+![image](https://user-images.githubusercontent.com/39738426/125064780-4b2cea00-e0b1-11eb-991e-8f2f7a1fd9d2.png) 
+
+*Si les trois champs utilisateur, Nom, Date coprologie ne sont pas remplis, le bouton enregistré reste bleau pale et est inactif. Dans le cas contraire le bouton devient bleu et actif.*
+
+<h2>fenêtre d'aide.</h2>
+
+![image](https://user-images.githubusercontent.com/39738426/125064780-4b2cea00-e0b1-11eb-991e-8f2f7a1fd9d2.png) 
+
+*En plaçant la souris sur la plupart des champs on obtient une aide sur la façon de renseigner le champ correspondant.*
+
+Lorsqu'on sasie un individu, on peut écrire une remarque concernant chaque parasite et une remarque générale (en haut à gauche du bouton d'enregistrement).
+
+Dans le cas ou l'identification est incertaine, prenez une photo du parasite nommer cette photo de la façon suivante Nom_animal_date.jpg
+et placer là sur le share point:
 
 https://sites.inrae.fr/site/cefs/IE_Gardouch/Chevreuils/Documents%20partages/Coprologies/Photos
-en la nommant nom_data.jpg
+ 
