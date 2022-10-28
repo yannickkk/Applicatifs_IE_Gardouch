@@ -1,0 +1,95 @@
+# App to define new GPS device and annual configuration
+shinyUI(
+  navbarPage(windowTitle = "IE Gardouch: ", title=div(tags$a(href="https://github.com/yannickkk/Applicatifs_IE_Gardouch/blob/main/App_affichage_suivi_sanitaire/readme.md","Documentation", target ="_blank")),
+             tabPanel("Coprologie",  
+                      fluidRow(
+                        shinyjs::useShinyjs(),
+                        shinyalert::useShinyalert(),
+                        shinyjs::inlineCSS(appCSS),
+                        tags$head(
+                          tags$style(HTML("
+                        @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+                        /* Change font of header text */
+                        h2 {
+                        color: blue;
+                        }
+                         "))
+                        ),
+                        #column(width= 1,selectInput(inputId = "numero_inrae", label = "N° de l'animal", choices = dbGetQuery(con,"select distinct(numero_inrae) FROM public.suivi_sanitaire")[,1], selected = NULL, multiple = TRUE),style = "margin-top:25px;"), #
+                        #bsTooltip("numero_inrae", "Sélectionner un ou des animaux pas son, leur n°Inrae","top", options = list(container = "body")),
+                        column(2,selectInput(inputId ="login", label =labelMandatory("Utilisateur"), choices =c("","Joel Merlet","Arnaud Bonnet","Marie-Line Maublanc")),style = "margin-top:25px;"),
+                        column(width= 1,selectInput(inputId = "nom_registre", label = labelMandatory("Nom"), choices = paste0(c("",dbGetQuery(con,"select distinct (nom_registre) FROM public.suivi_sanitaire")[,1])), selected =NULL, multiple = FALSE),style = "margin-top:25px;"), #
+                        bsTooltip("nom_registre", "Sélectionner un ou des animaux pas son, leur nom(s)","top", options = list(container = "body")),
+                        column(width= 2,dateInput(inputId = "obs_date",label = labelMandatory("Date coprologie"),value = NA, min = paste0(substr(Sys.time(),1,4),"-01-01"),max = paste0(substr(Sys.time(),1,4),"-12-31"),format = "dd/mm/yyyy",startview = "month",weekstart = 0,language = "fr",width = NULL,autoclose = TRUE),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "obs_remarque",label = "Remarque générale"),style = "margin-top:25px;"),
+                        bsTooltip("obs_remarque", "Remarque générale sur la coprologie","bottom", options = list(container = "body")),
+                        column(width= 1,actionButton("save", "Enregistrer", class = "btn-primary"),style = "margin-top:47px;"),
+                        bsTooltip("save", "les champs avec une * rouge doivent être remplis pour que le bouton soit actif","bottom", options = list(container = "body")),
+                        column(width= 1,actionButton("clean", "Effacer", class = "btn-primary"),style = "margin-top:47px;"),
+                        bsTooltip("clean", "Désélectionner l\\'animal en cours","bottom", options = list(container = "body")),
+                        column(12),
+                        br(),
+                        column(width= 1,h2("Nématodes courant")),
+                        column(12),
+                        br(),
+                        column(width= 2,numericInput(inputId = "strongles_gastro_intestinaux",label = "Strongles Gastro Intestinaux",value ="0"),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "strongles_gastro_intestinaux_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        column(width= 1,numericInput(inputId = "nematodirus",label = "Nematodirus",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "nematodirus_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        column(width= 2,numericInput(inputId = "strongyloidess_papillosus",label = "Strongyloides papillosus",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "strongyloidess_papillosus_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        br(),
+                        column(12),
+                        column(width= 1,h2("Trichures")),
+                        column(12),
+                        br(),
+                        column(width= 1,numericInput(inputId = "capillaria",label = "Capillaria",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "capillaria_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        column(width= 1,numericInput(inputId = "trichuris_ovis",label = "Trichuris ovis",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "trichuris_ovis_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        br(),
+                        column(12),
+                        column(width= 1,tags$h2("Protistes")), #, style="color:bleue")
+                        column(12),
+                        br(),
+                        column(width= 2,numericInput(inputId = "coccidies",label = "Coccidies",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "coccidies_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        br(),
+                        column(12),
+                        column(width= 1,h2("Trématodes")),
+                        column(12),
+                        br(),
+                        column(width= 2,numericInput(inputId = "echinostomida",label = "Echinostomida",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "echinostomida_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        column(width= 2,numericInput(inputId = "paramphistomum",label = "Paramphistomum",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "paramphistomum_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        br(),
+                        column(12),
+                        column(width= 1,h2("Autres nématodes")),
+                        column(12),
+                        br(),
+                        column(width= 2,numericInput(inputId = "dictyocaules",label = "Dictyocaules",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "dictyocaules_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        column(width= 1,numericInput(inputId = "oxyures",label = "Oxyures",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "oxyures_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        column(width= 2,numericInput(inputId = "haemonchus_contortus",label = "Haemonchus contortus",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "haemonchus_contortus_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        column(width= 2,numericInput(inputId = "strongyloidess_papillosus",label = "Strongyloides papillosus",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "strongyloidess_papillosus_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        br(),
+                        column(12),
+                        column(width= 1,h2("Cestodes")),
+                        column(12),
+                        br(),
+                        column(width= 1,numericInput(inputId = "moniezia",label = "Moniezia",value =0,min = 0,max = 1000),style = "margin-top:25px;"),
+                        column(width= 2,textInput(inputId = "moniezia_remarque",label = "Remarque"),style = "margin-top:25px;"),
+                        #bsTooltip("blessure", "Sélectionner un ou des animaux pas son, leur blessure(s)","top", options = list(container = "body")),
+                        br(),
+                        column(12),
+                        br(),
+                        column(2,p(class = 'text-center', downloadButton('downloadcsv2', 'Télécharger csv2'))),
+                        column(12),
+                        DT::dataTableOutput("coprologie", width = 300)
+                      ))
+  ))
