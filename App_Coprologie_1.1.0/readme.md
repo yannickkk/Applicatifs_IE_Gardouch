@@ -8,7 +8,7 @@ Une coprologie est définie par un expérimentateur (la personne qui a fait la c
 
 <h2>fenêtre d'aide.</h2>
 
-![image](https://user-images.githubusercontent.com/39738426/125064780-4b2cea00-e0b1-11eb-991e-8f2f7a1fd9d2.png) 
+![image](https://user-images.githubusercontent.com/39738426/125033795-0fcdf380-e090-11eb-93de-3538ba08a5b4.png)
 
 *En plaçant la souris sur la plupart des champs on obtient une aide sur la façon de renseigner le champ correspondant.*
 
